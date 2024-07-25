@@ -1,6 +1,9 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  const linkClass = ({ isActive }) =>
+    isActive ? "nav-item nav-link active" : "nav-item nav-link";
+
   return (
     <>
       {/* <!-- Spinner Start --> */}
@@ -45,9 +48,9 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
-              <a href="index.html" className="nav-item nav-link active">
+              <NavLink to="/" className={linkClass}>
                 Home
-              </a>
+              </NavLink>
               <a href="about.html" className="nav-item nav-link">
                 About
               </a>
@@ -88,9 +91,9 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <a href="contact.html" className="nav-item nav-link">
+              <NavLink to="/contact" className={linkClass}>
                 Contact
-              </a>
+              </NavLink>
             </div>
             <a href="" className="btn btn-primary px-3 d-none d-lg-flex">
               Add Property

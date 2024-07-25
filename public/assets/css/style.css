@@ -185,8 +185,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
-    background: var(--primary);
+    color: #FFFFFF !important;
+    background: var(--primary) !important;
     border-radius: 40px;
     font-size: 20px;
     transition: .5s;
