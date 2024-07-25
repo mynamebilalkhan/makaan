@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-  const linkClass = ({ isActive }) =>
-    isActive ? "nav-item nav-link active" : "nav-item nav-link";
+  const linkClass = (props) => {
+    console.log(props);
+    return props.isActive ? "nav-item nav-link active" : "nav-item nav-link";
+  };
 
   return (
     <>
