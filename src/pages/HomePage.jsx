@@ -10,7 +10,9 @@ import Testimonials from "../components/Testimonials";
 const HomePage = () => {
   return (
     <>
+      {/* <!-- Banner Start --> */}
       <HomeBanner />
+      {/* <!-- Banner End --> */}
 
       {/* <!-- Search Start --> */}
       <PropertySearch />

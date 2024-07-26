@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   const linkClass = (props) => {
@@ -26,8 +26,8 @@ const Header = () => {
       {/* <!-- Navbar Start --> */}
       <div className="container-fluid nav-bar bg-transparent">
         <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-          <a
-            href="index.html"
+          <Link
+            to="/"
             className="navbar-brand d-flex align-items-center text-center"
           >
             <div className="icon p-2 me-2">
@@ -39,7 +39,7 @@ const Header = () => {
               />
             </div>
             <h1 className="m-0 text-primary">Makaan</h1>
-          </a>
+          </Link>
           <button
             type="button"
             className="navbar-toggler"

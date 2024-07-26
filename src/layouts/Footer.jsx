@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const gallery = [
     "property-1.jpg",
@@ -49,9 +51,9 @@ const Footer = () => {
               <a className="btn btn-link text-white-50" href="">
                 About Us
               </a>
-              <a className="btn btn-link text-white-50" href="">
+              <Link className="btn btn-link text-white-50" to="/contact">
                 Contact Us
-              </a>
+              </Link>
               <a className="btn btn-link text-white-50" href="">
                 Our Services
               </a>
@@ -115,7 +117,7 @@ const Footer = () => {
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
-                  <a href="">Home</a>
+                  <Link to="/">Home</Link>
                   <a href="">Cookies</a>
                   <a href="">Help</a>
                   <a href="">FQAs</a>
