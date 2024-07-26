@@ -2,7 +2,7 @@ import FeaturedPropertyListing from "./FeaturedPropertyListing";
 import ForRentPropertyListing from "./ForRentPropertyListing";
 import ForSellPropertyListing from "./ForSellPropertyListing";
 
-const PropertyListings = () => {
+const PropertyListing = () => {
   return (
     <>
       <div className="container-xxl py-5">
@@ -94,4 +94,4 @@ const PropertyListings = () => {
   );
 };
 
-export default PropertyListings;
+export default PropertyListing;

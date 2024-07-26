@@ -68,10 +68,10 @@
     { "id": 4, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Asya Shien", "designation": "Director", "image": "testimonial-4.jpg"}
   ],
   "agents": [
-    { "id": 1, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Ashley Dhylan", "designation": "Director", "image": "testimonial-1.jpg"},
-    { "id": 2, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Gorge Shiber", "designation": "Chief Executive Officer", "image": "testimonial-2.jpg"},
-    { "id": 3, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Nickolas Dzambsow", "designation": "President", "image": "testimonial-3.jpg"},
-    { "id": 4, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Asya Shien", "designation": "Director", "image": "testimonial-4.jpg"}
+    { "id": 1, "name": "Alice Johnson", "designation": "Team Lead", "image": "team-1.jpg", "social": {"fb": "#", "in": "#", "x": "#"}},
+    { "id": 2, "name": "Bob Smith", "designation": "Senior Developer", "image": "team-2.jpg", "social": {"fb": "#", "in": "#", "x": "#"}},
+    { "id": 3, "name": "Charlie Brown", "designation": "UX Designer", "image": "team-3.jpg", "social": {"fb": "#", "in": "#", "x": "#"}},
+    { "id": 4, "name": "Dana White", "designation": "Project Manager", "image": "team-4.jpg", "social": {"fb": "#", "in": "#", "x": "#"}}
   ],
   "blogs": {
     "name": "typicode"
