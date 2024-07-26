@@ -1,6 +1,13 @@
-import React from "react";
-
 const Footer = () => {
+  const gallery = [
+    "property-1.jpg",
+    "property-2.jpg",
+    "property-3.jpg",
+    "property-4.jpg",
+    "property-5.jpg",
+    "property-6.jpg",
+  ];
+
   return (
     <>
       {/* <!-- Footer Start --> */}
@@ -58,48 +65,15 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <h5 className="text-white mb-4">Photo Gallery</h5>
               <div className="row g-2 pt-2">
-                <div className="col-4">
-                  <img
-                    className="img-fluid rounded bg-light p-1"
-                    src="img/property-1.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="col-4">
-                  <img
-                    className="img-fluid rounded bg-light p-1"
-                    src="img/property-2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="col-4">
-                  <img
-                    className="img-fluid rounded bg-light p-1"
-                    src="img/property-3.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="col-4">
-                  <img
-                    className="img-fluid rounded bg-light p-1"
-                    src="img/property-4.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="col-4">
-                  <img
-                    className="img-fluid rounded bg-light p-1"
-                    src="img/property-5.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="col-4">
-                  <img
-                    className="img-fluid rounded bg-light p-1"
-                    src="img/property-6.jpg"
-                    alt=""
-                  />
-                </div>
+                {gallery.map((img, index) => (
+                  <div className="col-4" key={index}>
+                    <img
+                      className="img-fluid rounded bg-light p-1"
+                      src={`public/assets/img/${img}`}
+                      alt=""
+                    />
+                  </div>
+                ))}
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
