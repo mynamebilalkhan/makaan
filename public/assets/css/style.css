@@ -350,23 +350,27 @@
 }
 
 .testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
+.testimonial-carousel .owl-nav .owl-next,
+.testimonial-carousel .owl-nav .owl-prev button,
+.testimonial-carousel .owl-nav .owl-next button{
     position: relative;
     width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
-    background: var(--primary);
+    color: #FFFFFF !important;
+    background: var(--primary) !important;
     border-radius: 40px;
     font-size: 20px;
     transition: .5s;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    background: var(--dark);
+.testimonial-carousel .owl-nav .owl-next:hover,
+.testimonial-carousel .owl-nav .owl-prev button:hover,
+.testimonial-carousel .owl-nav .owl-next button:hover {
+    background: var(--dark) !important;
 }
 
 
