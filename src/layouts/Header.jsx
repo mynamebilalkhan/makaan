@@ -2,8 +2,11 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   const linkClass = (props) => {
-    console.log(props);
     return props.isActive ? "nav-item nav-link active" : "nav-item nav-link";
+  };
+
+  const dropdownClass = (props) => {
+    return props.isActive ? "dropdown-item active" : "dropdown-item";
   };
 
   return (
@@ -50,30 +53,14 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
-              <NavLink to="/" className={linkClass}>
-                Home
-              </NavLink>
-              <NavLink to="/about" className={linkClass}>
-              About
-              </NavLink>
+              <NavLink to="/" className={linkClass}>Home</NavLink>
+              <NavLink to="/about" className={linkClass}>About</NavLink>
               <div className="nav-item dropdown">
-                <a
-                  href="#"
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                >
-                  Property
-                </a>
+                <NavLink to="#" className="nav-link dropdown-toggle">Property</NavLink>
                 <div className="dropdown-menu rounded-0 m-0">
-                  <a href="property-list.html" className="dropdown-item">
-                    Property List
-                  </a>
-                  <a href="property-type.html" className="dropdown-item">
-                    Property Type
-                  </a>
-                  <a href="property-agent.html" className="dropdown-item">
-                    Property Agent
-                  </a>
+                  <NavLink to="/property-list" className={dropdownClass}>Property List</NavLink>
+                  <NavLink to="/property-type" className={dropdownClass}>Property Type</NavLink>
+                  <NavLink to="/property-agent" className={dropdownClass}>Property Agent</NavLink>
                 </div>
               </div>
               <div className="nav-item dropdown">

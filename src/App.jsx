@@ -9,12 +9,14 @@ import HomePage from "./pages/HomePage";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
+import PropertyList from "./pages/PropertyList";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route index element={<HomePage />} />
       <Route path="/about" element={<About />} />
+      <Route path="/property-list" element={<PropertyList />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Route>
