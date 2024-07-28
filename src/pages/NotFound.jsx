@@ -1,7 +1,6 @@
-import React from 'react'
-import BannerInner from '../components/BannerInner'
-import PropertySearch from '../components/PropertySearch'
-import { Link } from 'react-router-dom'
+import BannerInner from '../components/BannerInner';
+import PropertySearch from '../components/PropertySearch';
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
   return (

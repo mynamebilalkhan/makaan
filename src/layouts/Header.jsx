@@ -53,9 +53,9 @@ const Header = () => {
               <NavLink to="/" className={linkClass}>
                 Home
               </NavLink>
-              <a href="about.html" className="nav-item nav-link">
-                About
-              </a>
+              <NavLink to="/about" className={linkClass}>
+              About
+              </NavLink>
               <div className="nav-item dropdown">
                 <a
                   href="#"
