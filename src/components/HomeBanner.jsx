@@ -3,7 +3,10 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Link } from "react-router-dom";
 
-const imgSlides = ["/assets/img/carousel-1.jpg", "/assets/img/carousel-2.jpg"];
+const imgSlides = [
+  "/public/assets/img/carousel-1.jpg",
+  "/public/assets/img/carousel-2.jpg",
+];
 
 const HomeBanner = () => {
   return (

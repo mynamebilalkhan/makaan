@@ -4,11 +4,12 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { useEffect, useState } from "react";
 
 const Testimonials = () => {
+  const apiURL = import.meta.env.VITE_REACT_APP_API_URL;
   const [testimonials, setTestimonials] = useState();
   useEffect(() => {
     const fetchTestimonials = async () => {
       try {
-        const res = await fetch("/api/testimonials");
+        const res = await fetch(`${apiURL}/testimonials`);
         const data = await res.json();
         setTestimonials(data);
       } catch (error) {
