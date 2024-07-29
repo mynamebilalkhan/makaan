@@ -4,8 +4,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Link } from "react-router-dom";
 
 const imgSlides = [
-  "public/assets/img/carousel-1.jpg",
-  "public/assets/img/carousel-2.jpg",
+  "/public/assets/img/carousel-1.jpg",
+  "/public/assets/img/carousel-2.jpg",
 ];
 
 const HomeBanner = () => {
