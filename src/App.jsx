@@ -13,12 +13,14 @@ import PropertyList from "./pages/PropertyList";
 import PropertyType from "./pages/PropertyType";
 import TestimonialsPage from "./pages/TestimonialsPage";
 import PropertyAgent from "./pages/PropertyAgent";
+import PropertyTypeDetail from "./pages/PropertyTypeDetail";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route index element={<HomePage />} />
       <Route path="/about" element={<About />} />
+      <Route path="/type/:type" element={<PropertyTypeDetail />} />
       <Route path="/property-list" element={<PropertyList />} />
       <Route path="/property-type" element={<PropertyType />} />
       <Route path="/testimonials" element={<TestimonialsPage />} />

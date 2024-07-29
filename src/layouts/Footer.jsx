@@ -71,7 +71,7 @@ const Footer = () => {
                   <div className="col-4" key={index}>
                     <img
                       className="img-fluid rounded bg-light p-1"
-                      src={`public/assets/img/${img}`}
+                      src={`/public/assets/img/${img}`}
                       alt=""
                     />
                   </div>
