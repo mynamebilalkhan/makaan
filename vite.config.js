@@ -8,7 +8,8 @@ export default defineConfig({
     port: 3000, 
     proxy: {
       '/api': {
-        target: 'https://my-json-server.typicode.com/mynamebilalkhan/fake-json-api',
+        // target: 'https://my-json-server.typicode.com/mynamebilalkhan/fake-json-api',
+        target: 'http://localhost:6565',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }

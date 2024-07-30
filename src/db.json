@@ -1,77 +1,997 @@
 {
   "properties": [
-    { "id": 1, "title": "Golden Urban House For Sell 1", "location": "123 Street, New York, USA", "space": "1000 Sqft", "bed": 3, "bath": 2, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$600,000", "image": "property-1.jpg" },
-    { "id": 2, "title": "Golden Urban House For Sell 2", "location": "456 Avenue, Los Angeles, USA", "space": "1010 Sqft", "bed": 2, "bath": 1, "type": { "name": "appartment", "icon": "icon-apartment.png"}, "purpose": "sell", "price": "$500,000", "image": "property-2.jpg" },
-    { "id": 3, "title": "Golden Urban House For Sell 3", "location": "789 Boulevard, Chicago, USA", "space": "1020 Sqft", "bed": 3, "bath": 2, "type": { "name": "villa", "icon": "icon-villa.png"}, "purpose": "rent", "price": "$2,500/month", "image": "property-3.jpg" },
-    { "id": 4, "title": "Golden Urban House For Sell 4", "location": "123 Street, New York, USA", "space": "1030 Sqft", "bed": 4, "bath": 3, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$700,000", "image": "property-4.jpg" },
-    { "id": 5, "title": "Golden Urban House For Sell 5", "location": "456 Avenue, Los Angeles, USA", "space": "1040 Sqft", "bed": 1, "bath": 2, "type": {"name": "office", "icon": "icon-housing.png"}, "purpose": "rent", "price": "$3,000/month", "image": "property-5.jpg" },
-    { "id": 6, "title": "Golden Urban House For Sell 6", "location": "789 Boulevard, Chicago, USA", "space": "1050 Sqft", "bed": 2, "bath": 1, "type": {"name": "building", "icon": "icon-building.png"}, "purpose": "sell", "price": "$500,000", "image": "property-6.jpg" },
-    { "id": 7, "title": "Golden Urban House For Sell 7", "location": "123 Street, New York, USA", "space": "1060 Sqft", "bed": 3, "bath": 2, "type": {"name": "townhouse", "icon": "icon-neighborhood.png"}, "purpose": "rent", "price": "$2,700/month", "image": "property-1.jpg" },
-    { "id": 8, "title": "Golden Urban House For Sell 8", "location": "456 Avenue, Los Angeles, USA", "space": "1070 Sqft", "bed": 4, "bath": 3, "type": {"name": "shop", "icon": "icon-condominium.png"}, "purpose": "sell", "price": "$750,000", "image": "property-2.jpg" },
-    { "id": 9, "title": "Golden Urban House For Sell 9", "location": "789 Boulevard, Chicago, USA", "space": "1080 Sqft", "bed": 1, "bath": 1, "type": {"name": "garage", "icon": "icon-luxury.png"}, "purpose": "rent", "price": "$1,400/month", "image": "property-3.jpg" },
-    { "id": 10, "title": "Golden Urban House For Sell 10", "location": "123 Street, New York, USA", "space": "1090 Sqft", "bed": 3, "bath": 2, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$620,000", "image": "property-4.jpg" },
-    { "id": 11, "title": "Golden Urban House For Sell 11", "location": "456 Avenue, Los Angeles, USA", "space": "1100 Sqft", "bed": 2, "bath": 1, "type": { "name": "appartment", "icon": "icon-apartment.png"}, "purpose": "sell", "price": "$510,000", "image": "property-5.jpg" },
-    { "id": 12, "title": "Golden Urban House For Sell 12", "location": "789 Boulevard, Chicago, USA", "space": "1110 Sqft", "bed": 3, "bath": 2, "type": { "name": "villa", "icon": "icon-villa.png"}, "purpose": "rent", "price": "$2,600/month", "image": "property-6.jpg" },
-    { "id": 13, "title": "Golden Urban House For Sell 13", "location": "123 Street, New York, USA", "space": "1120 Sqft", "bed": 4, "bath": 3, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$720,000", "image": "property-1.jpg" },
-    { "id": 14, "title": "Golden Urban House For Sell 14", "location": "456 Avenue, Los Angeles, USA", "space": "1130 Sqft", "bed": 1, "bath": 2, "type": {"name": "office", "icon": "icon-housing.png"}, "purpose": "rent", "price": "$3,100/month", "image": "property-2.jpg" },
-    { "id": 15, "title": "Golden Urban House For Sell 15", "location": "789 Boulevard, Chicago, USA", "space": "1140 Sqft", "bed": 2, "bath": 1, "type": {"name": "building", "icon": "icon-building.png"}, "purpose": "sell", "price": "$510,000", "image": "property-3.jpg" },
-    { "id": 16, "title": "Golden Urban House For Sell 16", "location": "123 Street, New York, USA", "space": "1150 Sqft", "bed": 3, "bath": 2, "type": {"name": "townhouse", "icon": "icon-neighborhood.png"}, "purpose": "rent", "price": "$2,800/month", "image": "property-4.jpg" },
-    { "id": 17, "title": "Golden Urban House For Sell 17", "location": "456 Avenue, Los Angeles, USA", "space": "1160 Sqft", "bed": 4, "bath": 3, "type": {"name": "shop", "icon": "icon-condominium.png"}, "purpose": "sell", "price": "$760,000", "image": "property-5.jpg" },
-    { "id": 18, "title": "Golden Urban House For Sell 18", "location": "789 Boulevard, Chicago, USA", "space": "1170 Sqft", "bed": 1, "bath": 1, "type": {"name": "garage", "icon": "icon-luxury.png"}, "purpose": "rent", "price": "$1,450/month", "image": "property-6.jpg" },
-    { "id": 19, "title": "Golden Urban House For Sell 19", "location": "123 Street, New York, USA", "space": "1180 Sqft", "bed": 3, "bath": 2, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$640,000", "image": "property-1.jpg" },
-    { "id": 20, "title": "Golden Urban House For Sell 20", "location": "456 Avenue, Los Angeles, USA", "space": "1190 Sqft", "bed": 2, "bath": 1, "type": { "name": "appartment", "icon": "icon-apartment.png"}, "purpose": "sell", "price": "$520,000", "image": "property-2.jpg" },
-    { "id": 21, "title": "Golden Urban House For Sell 21", "location": "789 Boulevard, Chicago, USA", "space": "1200 Sqft", "bed": 3, "bath": 2, "type": { "name": "villa", "icon": "icon-villa.png"}, "purpose": "rent", "price": "$2,700/month", "image": "property-3.jpg" },
-    { "id": 22, "title": "Golden Urban House For Sell 22", "location": "123 Street, New York, USA", "space": "1210 Sqft", "bed": 4, "bath": 3, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$740,000", "image": "property-4.jpg" },
-    { "id": 23, "title": "Golden Urban House For Sell 23", "location": "456 Avenue, Los Angeles, USA", "space": "1220 Sqft", "bed": 1, "bath": 2, "type": {"name": "office", "icon": "icon-housing.png"}, "purpose": "rent", "price": "$3,200/month", "image": "property-5.jpg" },
-    { "id": 24, "title": "Golden Urban House For Sell 24", "location": "789 Boulevard, Chicago, USA", "space": "1230 Sqft", "bed": 2, "bath": 1, "type": {"name": "building", "icon": "icon-building.png"}, "purpose": "sell", "price": "$520,000", "image": "property-6.jpg" },
-    { "id": 25, "title": "Golden Urban House For Sell 25", "location": "123 Street, New York, USA", "space": "1240 Sqft", "bed": 3, "bath": 2, "type": {"name": "townhouse", "icon": "icon-neighborhood.png"}, "purpose": "rent", "price": "$2,900/month", "image": "property-1.jpg" },
-    { "id": 26, "title": "Golden Urban House For Sell 26", "location": "456 Avenue, Los Angeles, USA", "space": "1250 Sqft", "bed": 4, "bath": 3, "type": {"name": "shop", "icon": "icon-condominium.png"}, "purpose": "sell", "price": "$770,000", "image": "property-2.jpg" },
-    { "id": 27, "title": "Golden Urban House For Sell 27", "location": "789 Boulevard, Chicago, USA", "space": "1260 Sqft", "bed": 1, "bath": 1, "type": {"name": "garage", "icon": "icon-luxury.png"}, "purpose": "rent", "price": "$1,500/month", "image": "property-3.jpg" },
-    { "id": 28, "title": "Golden Urban House For Sell 28", "location": "123 Street, New York, USA", "space": "1270 Sqft", "bed": 3, "bath": 2, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$660,000", "image": "property-4.jpg" },
-    { "id": 29, "title": "Golden Urban House For Sell 29", "location": "456 Avenue, Los Angeles, USA", "space": "1280 Sqft", "bed": 2, "bath": 1, "type": { "name": "appartment", "icon": "icon-apartment.png"}, "purpose": "sell", "price": "$530,000", "image": "property-5.jpg" },
-    { "id": 30, "title": "Golden Urban House For Sell 30", "location": "789 Boulevard, Chicago, USA", "space": "1290 Sqft", "bed": 3, "bath": 2, "type": { "name": "villa", "icon": "icon-villa.png"}, "purpose": "rent", "price": "$2,800/month", "image": "property-6.jpg" },
-    { "id": 31, "title": "Golden Urban House For Sell 31", "location": "123 Street, New York, USA", "space": "1300 Sqft", "bed": 4, "bath": 3, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$760,000", "image": "property-1.jpg" },
-    { "id": 32, "title": "Golden Urban House For Sell 32", "location": "456 Avenue, Los Angeles, USA", "space": "1310 Sqft", "bed": 1, "bath": 2, "type": {"name": "office", "icon": "icon-housing.png"}, "purpose": "rent", "price": "$3,300/month", "image": "property-2.jpg" },
-    { "id": 33, "title": "Golden Urban House For Sell 33", "location": "789 Boulevard, Chicago, USA", "space": "1320 Sqft", "bed": 2, "bath": 1, "type": {"name": "building", "icon": "icon-building.png"}, "purpose": "sell", "price": "$530,000", "image": "property-3.jpg" },
-    { "id": 34, "title": "Golden Urban House For Sell 34", "location": "123 Street, New York, USA", "space": "1330 Sqft", "bed": 3, "bath": 2, "type": {"name": "townhouse", "icon": "icon-neighborhood.png"}, "purpose": "rent", "price": "$3,000/month", "image": "property-4.jpg" },
-    { "id": 35, "title": "Golden Urban House For Sell 35", "location": "456 Avenue, Los Angeles, USA", "space": "1340 Sqft", "bed": 4, "bath": 3, "type": {"name": "shop", "icon": "icon-condominium.png"}, "purpose": "sell", "price": "$780,000", "image": "property-5.jpg" },
-    { "id": 36, "title": "Golden Urban House For Sell 36", "location": "789 Boulevard, Chicago, USA", "space": "1350 Sqft", "bed": 1, "bath": 1, "type": {"name": "garage", "icon": "icon-luxury.png"}, "purpose": "rent", "price": "$1,550/month", "image": "property-6.jpg" },
-    { "id": 37, "title": "Golden Urban House For Sell 37", "location": "123 Street, New York, USA", "space": "1360 Sqft", "bed": 3, "bath": 2, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$680,000", "image": "property-1.jpg" },
-    { "id": 38, "title": "Golden Urban House For Sell 38", "location": "456 Avenue, Los Angeles, USA", "space": "1370 Sqft", "bed": 2, "bath": 1, "type": { "name": "appartment", "icon": "icon-apartment.png"}, "purpose": "sell", "price": "$540,000", "image": "property-2.jpg" },
-    { "id": 39, "title": "Golden Urban House For Sell 39", "location": "789 Boulevard, Chicago, USA", "space": "1380 Sqft", "bed": 3, "bath": 2, "type": { "name": "villa", "icon": "icon-villa.png"}, "purpose": "rent", "price": "$2,900/month", "image": "property-3.jpg" },
-    { "id": 40, "title": "Golden Urban House For Sell 40", "location": "123 Street, New York, USA", "space": "1390 Sqft", "bed": 4, "bath": 3, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$780,000", "image": "property-4.jpg" },
-    { "id": 41, "title": "Golden Urban House For Sell 41", "location": "456 Avenue, Los Angeles, USA", "space": "1400 Sqft", "bed": 1, "bath": 2, "type": {"name": "office", "icon": "icon-housing.png"}, "purpose": "rent", "price": "$3,400/month", "image": "property-5.jpg" },
-    { "id": 42, "title": "Golden Urban House For Sell 42", "location": "789 Boulevard, Chicago, USA", "space": "1410 Sqft", "bed": 2, "bath": 1, "type": {"name": "building", "icon": "icon-building.png"}, "purpose": "sell", "price": "$540,000", "image": "property-6.jpg" },
-    { "id": 43, "title": "Golden Urban House For Sell 43", "location": "123 Street, New York, USA", "space": "1420 Sqft", "bed": 3, "bath": 2, "type": {"name": "townhouse", "icon": "icon-neighborhood.png"}, "purpose": "rent", "price": "$3,100/month", "image": "property-1.jpg" },
-    { "id": 44, "title": "Golden Urban House For Sell 44", "location": "456 Avenue, Los Angeles, USA", "space": "1430 Sqft", "bed": 4, "bath": 3, "type": {"name": "shop", "icon": "icon-condominium.png"}, "purpose": "sell", "price": "$790,000", "image": "property-2.jpg" },
-    { "id": 45, "title": "Golden Urban House For Sell 45", "location": "789 Boulevard, Chicago, USA", "space": "1440 Sqft", "bed": 1, "bath": 1, "type": {"name": "garage", "icon": "icon-luxury.png"}, "purpose": "rent", "price": "$1,600/month", "image": "property-3.jpg" },
-    { "id": 46, "title": "Golden Urban House For Sell 46", "location": "123 Street, New York, USA", "space": "1450 Sqft", "bed": 3, "bath": 2, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$700,000", "image": "property-4.jpg" },
-    { "id": 47, "title": "Golden Urban House For Sell 47", "location": "456 Avenue, Los Angeles, USA", "space": "1460 Sqft", "bed": 2, "bath": 1, "type": { "name": "appartment", "icon": "icon-apartment.png"}, "purpose": "sell", "price": "$550,000", "image": "property-5.jpg" },
-    { "id": 48, "title": "Golden Urban House For Sell 48", "location": "789 Boulevard, Chicago, USA", "space": "1470 Sqft", "bed": 3, "bath": 2, "type": { "name": "villa", "icon": "icon-villa.png"}, "purpose": "rent", "price": "$3,000/month", "image": "property-6.jpg" },
-    { "id": 49, "title": "Golden Urban House For Sell 49", "location": "123 Street, New York, USA", "space": "1480 Sqft", "bed": 4, "bath": 3, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$800,000", "image": "property-1.jpg" },
-    { "id": 50, "title": "Golden Urban House For Sell 50", "location": "456 Avenue, Los Angeles, USA", "space": "1490 Sqft", "bed": 1, "bath": 2, "type": {"name": "office", "icon": "icon-housing.png"}, "purpose": "rent", "price": "$3,500/month", "image": "property-2.jpg" },
-    { "id": 51, "title": "Golden Urban House For Sell 51", "location": "789 Boulevard, Chicago, USA", "space": "1500 Sqft", "bed": 2, "bath": 1, "type": {"name": "building", "icon": "icon-building.png"}, "purpose": "sell", "price": "$550,000", "image": "property-3.jpg" },
-    { "id": 52, "title": "Golden Urban House For Sell 52", "location": "123 Street, New York, USA", "space": "1510 Sqft", "bed": 3, "bath": 2, "type": {"name": "townhouse", "icon": "icon-neighborhood.png"}, "purpose": "rent", "price": "$3,200/month", "image": "property-4.jpg" },
-    { "id": 53, "title": "Golden Urban House For Sell 53", "location": "456 Avenue, Los Angeles, USA", "space": "1520 Sqft", "bed": 4, "bath": 3, "type": {"name": "shop", "icon": "icon-condominium.png"}, "purpose": "sell", "price": "$810,000", "image": "property-5.jpg" },
-    { "id": 54, "title": "Golden Urban House For Sell 54", "location": "789 Boulevard, Chicago, USA", "space": "1530 Sqft", "bed": 1, "bath": 1, "type": {"name": "garage", "icon": "icon-luxury.png"}, "purpose": "rent", "price": "$1,650/month", "image": "property-6.jpg" },
-    { "id": 55, "title": "Golden Urban House For Sell 55", "location": "123 Street, New York, USA", "space": "1540 Sqft", "bed": 3, "bath": 2, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$720,000", "image": "property-1.jpg" },
-    { "id": 56, "title": "Golden Urban House For Sell 56", "location": "456 Avenue, Los Angeles, USA", "space": "1550 Sqft", "bed": 2, "bath": 1, "type": { "name": "appartment", "icon": "icon-apartment.png"}, "purpose": "sell", "price": "$560,000", "image": "property-2.jpg" },
-    { "id": 57, "title": "Golden Urban House For Sell 57", "location": "789 Boulevard, Chicago, USA", "space": "1560 Sqft", "bed": 3, "bath": 2, "type": { "name": "villa", "icon": "icon-villa.png"}, "purpose": "rent", "price": "$3,100/month", "image": "property-3.jpg" },
-    { "id": 58, "title": "Golden Urban House For Sell 58", "location": "123 Street, New York, USA", "space": "1570 Sqft", "bed": 4, "bath": 3, "type": { "name": "home", "icon": "icon-house.png"}, "purpose": "sell", "price": "$820,000", "image": "property-4.jpg" },
-    { "id": 59, "title": "Golden Urban House For Sell 59", "location": "456 Avenue, Los Angeles, USA", "space": "1580 Sqft", "bed": 1, "bath": 2, "type": {"name": "office", "icon": "icon-housing.png"}, "purpose": "rent", "price": "$3,600/month", "image": "property-5.jpg" },
-    { "id": 60, "title": "Golden Urban House For Sell 60", "location": "789 Boulevard, Chicago, USA", "space": "1590 Sqft", "bed": 2, "bath": 1, "type": {"name": "building", "icon": "icon-building.png"}, "purpose": "sell", "price": "$560,000", "image": "property-6.jpg" }
-],
+    {
+      "id": 1,
+      "title": "Golden Urban House For Sell 1",
+      "location": "123 Street, New York, USA",
+      "space": "1000 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$600,000",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Golden Urban House For Sell 2",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1010 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "appartment",
+        "icon": "icon-apartment.png"
+      },
+      "purpose": "sell",
+      "price": "$500,000",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Golden Urban House For Sell 3",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1020 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "villa",
+        "icon": "icon-villa.png"
+      },
+      "purpose": "rent",
+      "price": "$2,500/month",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Golden Urban House For Sell 4",
+      "location": "123 Street, New York, USA",
+      "space": "1030 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$700,000",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Golden Urban House For Sell 5",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1040 Sqft",
+      "bed": 1,
+      "bath": 2,
+      "type": {
+        "name": "office",
+        "icon": "icon-housing.png"
+      },
+      "purpose": "rent",
+      "price": "$3,000/month",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Golden Urban House For Sell 6",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1050 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "building",
+        "icon": "icon-building.png"
+      },
+      "purpose": "sell",
+      "price": "$500,000",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Golden Urban House For Sell 7",
+      "location": "123 Street, New York, USA",
+      "space": "1060 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "townhouse",
+        "icon": "icon-neighborhood.png"
+      },
+      "purpose": "rent",
+      "price": "$2,700/month",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Golden Urban House For Sell 8",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1070 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "shop",
+        "icon": "icon-condominium.png"
+      },
+      "purpose": "sell",
+      "price": "$750,000",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Golden Urban House For Sell 9",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1080 Sqft",
+      "bed": 1,
+      "bath": 1,
+      "type": {
+        "name": "garage",
+        "icon": "icon-luxury.png"
+      },
+      "purpose": "rent",
+      "price": "$1,400/month",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Golden Urban House For Sell 10",
+      "location": "123 Street, New York, USA",
+      "space": "1090 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$620,000",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Golden Urban House For Sell 11",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1100 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "appartment",
+        "icon": "icon-apartment.png"
+      },
+      "purpose": "sell",
+      "price": "$510,000",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Golden Urban House For Sell 12",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1110 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "villa",
+        "icon": "icon-villa.png"
+      },
+      "purpose": "rent",
+      "price": "$2,600/month",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Golden Urban House For Sell 13",
+      "location": "123 Street, New York, USA",
+      "space": "1120 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$720,000",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Golden Urban House For Sell 14",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1130 Sqft",
+      "bed": 1,
+      "bath": 2,
+      "type": {
+        "name": "office",
+        "icon": "icon-housing.png"
+      },
+      "purpose": "rent",
+      "price": "$3,100/month",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Golden Urban House For Sell 15",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1140 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "building",
+        "icon": "icon-building.png"
+      },
+      "purpose": "sell",
+      "price": "$510,000",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Golden Urban House For Sell 16",
+      "location": "123 Street, New York, USA",
+      "space": "1150 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "townhouse",
+        "icon": "icon-neighborhood.png"
+      },
+      "purpose": "rent",
+      "price": "$2,800/month",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Golden Urban House For Sell 17",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1160 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "shop",
+        "icon": "icon-condominium.png"
+      },
+      "purpose": "sell",
+      "price": "$760,000",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Golden Urban House For Sell 18",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1170 Sqft",
+      "bed": 1,
+      "bath": 1,
+      "type": {
+        "name": "garage",
+        "icon": "icon-luxury.png"
+      },
+      "purpose": "rent",
+      "price": "$1,450/month",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Golden Urban House For Sell 19",
+      "location": "123 Street, New York, USA",
+      "space": "1180 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$640,000",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Golden Urban House For Sell 20",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1190 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "appartment",
+        "icon": "icon-apartment.png"
+      },
+      "purpose": "sell",
+      "price": "$520,000",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Golden Urban House For Sell 21",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1200 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "villa",
+        "icon": "icon-villa.png"
+      },
+      "purpose": "rent",
+      "price": "$2,700/month",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Golden Urban House For Sell 22",
+      "location": "123 Street, New York, USA",
+      "space": "1210 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$740,000",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Golden Urban House For Sell 23",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1220 Sqft",
+      "bed": 1,
+      "bath": 2,
+      "type": {
+        "name": "office",
+        "icon": "icon-housing.png"
+      },
+      "purpose": "rent",
+      "price": "$3,200/month",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Golden Urban House For Sell 24",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1230 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "building",
+        "icon": "icon-building.png"
+      },
+      "purpose": "sell",
+      "price": "$520,000",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Golden Urban House For Sell 25",
+      "location": "123 Street, New York, USA",
+      "space": "1240 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "townhouse",
+        "icon": "icon-neighborhood.png"
+      },
+      "purpose": "rent",
+      "price": "$2,900/month",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Golden Urban House For Sell 26",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1250 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "shop",
+        "icon": "icon-condominium.png"
+      },
+      "purpose": "sell",
+      "price": "$770,000",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Golden Urban House For Sell 27",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1260 Sqft",
+      "bed": 1,
+      "bath": 1,
+      "type": {
+        "name": "garage",
+        "icon": "icon-luxury.png"
+      },
+      "purpose": "rent",
+      "price": "$1,500/month",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Golden Urban House For Sell 28",
+      "location": "123 Street, New York, USA",
+      "space": "1270 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$660,000",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Golden Urban House For Sell 29",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1280 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "appartment",
+        "icon": "icon-apartment.png"
+      },
+      "purpose": "sell",
+      "price": "$530,000",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Golden Urban House For Sell 30",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1290 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "villa",
+        "icon": "icon-villa.png"
+      },
+      "purpose": "rent",
+      "price": "$2,800/month",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Golden Urban House For Sell 31",
+      "location": "123 Street, New York, USA",
+      "space": "1300 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$760,000",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Golden Urban House For Sell 32",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1310 Sqft",
+      "bed": 1,
+      "bath": 2,
+      "type": {
+        "name": "office",
+        "icon": "icon-housing.png"
+      },
+      "purpose": "rent",
+      "price": "$3,300/month",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Golden Urban House For Sell 33",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1320 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "building",
+        "icon": "icon-building.png"
+      },
+      "purpose": "sell",
+      "price": "$530,000",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Golden Urban House For Sell 34",
+      "location": "123 Street, New York, USA",
+      "space": "1330 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "townhouse",
+        "icon": "icon-neighborhood.png"
+      },
+      "purpose": "rent",
+      "price": "$3,000/month",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Golden Urban House For Sell 35",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1340 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "shop",
+        "icon": "icon-condominium.png"
+      },
+      "purpose": "sell",
+      "price": "$780,000",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Golden Urban House For Sell 36",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1350 Sqft",
+      "bed": 1,
+      "bath": 1,
+      "type": {
+        "name": "garage",
+        "icon": "icon-luxury.png"
+      },
+      "purpose": "rent",
+      "price": "$1,550/month",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Golden Urban House For Sell 37",
+      "location": "123 Street, New York, USA",
+      "space": "1360 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$680,000",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Golden Urban House For Sell 38",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1370 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "appartment",
+        "icon": "icon-apartment.png"
+      },
+      "purpose": "sell",
+      "price": "$540,000",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Golden Urban House For Sell 39",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1380 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "villa",
+        "icon": "icon-villa.png"
+      },
+      "purpose": "rent",
+      "price": "$2,900/month",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Golden Urban House For Sell 40",
+      "location": "123 Street, New York, USA",
+      "space": "1390 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$780,000",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Golden Urban House For Sell 41",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1400 Sqft",
+      "bed": 1,
+      "bath": 2,
+      "type": {
+        "name": "office",
+        "icon": "icon-housing.png"
+      },
+      "purpose": "rent",
+      "price": "$3,400/month",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Golden Urban House For Sell 42",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1410 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "building",
+        "icon": "icon-building.png"
+      },
+      "purpose": "sell",
+      "price": "$540,000",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 43,
+      "title": "Golden Urban House For Sell 43",
+      "location": "123 Street, New York, USA",
+      "space": "1420 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "townhouse",
+        "icon": "icon-neighborhood.png"
+      },
+      "purpose": "rent",
+      "price": "$3,100/month",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 44,
+      "title": "Golden Urban House For Sell 44",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1430 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "shop",
+        "icon": "icon-condominium.png"
+      },
+      "purpose": "sell",
+      "price": "$790,000",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Golden Urban House For Sell 45",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1440 Sqft",
+      "bed": 1,
+      "bath": 1,
+      "type": {
+        "name": "garage",
+        "icon": "icon-luxury.png"
+      },
+      "purpose": "rent",
+      "price": "$1,600/month",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 46,
+      "title": "Golden Urban House For Sell 46",
+      "location": "123 Street, New York, USA",
+      "space": "1450 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$700,000",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 47,
+      "title": "Golden Urban House For Sell 47",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1460 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "appartment",
+        "icon": "icon-apartment.png"
+      },
+      "purpose": "sell",
+      "price": "$550,000",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 48,
+      "title": "Golden Urban House For Sell 48",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1470 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "villa",
+        "icon": "icon-villa.png"
+      },
+      "purpose": "rent",
+      "price": "$3,000/month",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 49,
+      "title": "Golden Urban House For Sell 49",
+      "location": "123 Street, New York, USA",
+      "space": "1480 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$800,000",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 50,
+      "title": "Golden Urban House For Sell 50",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1490 Sqft",
+      "bed": 1,
+      "bath": 2,
+      "type": {
+        "name": "office",
+        "icon": "icon-housing.png"
+      },
+      "purpose": "rent",
+      "price": "$3,500/month",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 51,
+      "title": "Golden Urban House For Sell 51",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1500 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "building",
+        "icon": "icon-building.png"
+      },
+      "purpose": "sell",
+      "price": "$550,000",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 52,
+      "title": "Golden Urban House For Sell 52",
+      "location": "123 Street, New York, USA",
+      "space": "1510 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "townhouse",
+        "icon": "icon-neighborhood.png"
+      },
+      "purpose": "rent",
+      "price": "$3,200/month",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 53,
+      "title": "Golden Urban House For Sell 53",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1520 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "shop",
+        "icon": "icon-condominium.png"
+      },
+      "purpose": "sell",
+      "price": "$810,000",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 54,
+      "title": "Golden Urban House For Sell 54",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1530 Sqft",
+      "bed": 1,
+      "bath": 1,
+      "type": {
+        "name": "garage",
+        "icon": "icon-luxury.png"
+      },
+      "purpose": "rent",
+      "price": "$1,650/month",
+      "image": "property-6.jpg"
+    },
+    {
+      "id": 55,
+      "title": "Golden Urban House For Sell 55",
+      "location": "123 Street, New York, USA",
+      "space": "1540 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$720,000",
+      "image": "property-1.jpg"
+    },
+    {
+      "id": 56,
+      "title": "Golden Urban House For Sell 56",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1550 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "appartment",
+        "icon": "icon-apartment.png"
+      },
+      "purpose": "sell",
+      "price": "$560,000",
+      "image": "property-2.jpg"
+    },
+    {
+      "id": 57,
+      "title": "Golden Urban House For Sell 57",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1560 Sqft",
+      "bed": 3,
+      "bath": 2,
+      "type": {
+        "name": "villa",
+        "icon": "icon-villa.png"
+      },
+      "purpose": "rent",
+      "price": "$3,100/month",
+      "image": "property-3.jpg"
+    },
+    {
+      "id": 58,
+      "title": "Golden Urban House For Sell 58",
+      "location": "123 Street, New York, USA",
+      "space": "1570 Sqft",
+      "bed": 4,
+      "bath": 3,
+      "type": {
+        "name": "home",
+        "icon": "icon-house.png"
+      },
+      "purpose": "sell",
+      "price": "$820,000",
+      "image": "property-4.jpg"
+    },
+    {
+      "id": 59,
+      "title": "Golden Urban House For Sell 59",
+      "location": "456 Avenue, Los Angeles, USA",
+      "space": "1580 Sqft",
+      "bed": 1,
+      "bath": 2,
+      "type": {
+        "name": "office",
+        "icon": "icon-housing.png"
+      },
+      "purpose": "rent",
+      "price": "$3,600/month",
+      "image": "property-5.jpg"
+    },
+    {
+      "id": 60,
+      "title": "Golden Urban House For Sell 60",
+      "location": "789 Boulevard, Chicago, USA",
+      "space": "1590 Sqft",
+      "bed": 2,
+      "bath": 1,
+      "type": {
+        "name": "building",
+        "icon": "icon-building.png"
+      },
+      "purpose": "sell",
+      "price": "$560,000",
+      "image": "property-6.jpg"
+    }
+  ],
   "testimonials": [
-    { "id": 1, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Ashley Dhylan", "designation": "Director", "image": "testimonial-1.jpg"},
-    { "id": 2, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Gorge Shiber", "designation": "Chief Executive Officer", "image": "testimonial-2.jpg"},
-    { "id": 3, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Nickolas Dzambsow", "designation": "President", "image": "testimonial-3.jpg"},
-    { "id": 4, "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos", "client": "Asya Shien", "designation": "Director", "image": "testimonial-4.jpg"}
+    {
+      "id": 1,
+      "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos",
+      "client": "Ashley Dhylan",
+      "designation": "Director",
+      "image": "testimonial-1.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos",
+      "client": "Gorge Shiber",
+      "designation": "Chief Executive Officer",
+      "image": "testimonial-2.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos",
+      "client": "Nickolas Dzambsow",
+      "designation": "President",
+      "image": "testimonial-3.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos",
+      "client": "Asya Shien",
+      "designation": "Director",
+      "image": "testimonial-4.jpg"
+    }
   ],
   "agents": [
-    { "id": 1, "name": "Alice Johnson", "designation": "Team Lead", "image": "team-1.jpg", "social": {"fb": "#", "in": "#", "x": "#"}},
-    { "id": 2, "name": "Bob Smith", "designation": "Senior Developer", "image": "team-2.jpg", "social": {"fb": "#", "in": "#", "x": "#"}},
-    { "id": 3, "name": "Charlie Brown", "designation": "UX Designer", "image": "team-3.jpg", "social": {"fb": "#", "in": "#", "x": "#"}},
-    { "id": 4, "name": "Dana White", "designation": "Project Manager", "image": "team-4.jpg", "social": {"fb": "#", "in": "#", "x": "#"}}
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "designation": "Team Lead",
+      "image": "team-1.jpg",
+      "social": {
+        "fb": "#",
+        "in": "#",
+        "x": "#"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "designation": "Senior Developer",
+      "image": "team-2.jpg",
+      "social": {
+        "fb": "#",
+        "in": "#",
+        "x": "#"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "designation": "UX Designer",
+      "image": "team-3.jpg",
+      "social": {
+        "fb": "#",
+        "in": "#",
+        "x": "#"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Dana White",
+      "designation": "Project Manager",
+      "image": "team-4.jpg",
+      "social": {
+        "fb": "#",
+        "in": "#",
+        "x": "#"
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1b0d",
+      "name": "Price Vaughan",
+      "email": "dexycur@mailinator.com",
+      "subject": "Quia voluptas veniam",
+      "message": "Consequatur nulla n"
+    },
+    {
+      "id": "c6b9",
+      "name": "Bilal Khan",
+      "email": "bilal@gmail.com",
+      "subject": "React Form Test",
+      "message": "Bilal is testing react form."
+    }
   ],
   "blogs": {
     "name": "typicode"
