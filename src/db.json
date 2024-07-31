@@ -13,7 +13,8 @@
       },
       "purpose": "sell",
       "price": "$600,000",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 2,
@@ -28,7 +29,8 @@
       },
       "purpose": "sell",
       "price": "$500,000",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 3,
@@ -43,7 +45,8 @@
       },
       "purpose": "rent",
       "price": "$2,500/month",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 4,
@@ -58,7 +61,8 @@
       },
       "purpose": "sell",
       "price": "$700,000",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 5,
@@ -73,7 +77,8 @@
       },
       "purpose": "rent",
       "price": "$3,000/month",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 6,
@@ -88,7 +93,8 @@
       },
       "purpose": "sell",
       "price": "$500,000",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 7,
@@ -103,7 +109,8 @@
       },
       "purpose": "rent",
       "price": "$2,700/month",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 8,
@@ -118,7 +125,8 @@
       },
       "purpose": "sell",
       "price": "$750,000",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 9,
@@ -133,7 +141,8 @@
       },
       "purpose": "rent",
       "price": "$1,400/month",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 10,
@@ -148,7 +157,8 @@
       },
       "purpose": "sell",
       "price": "$620,000",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 11,
@@ -163,7 +173,8 @@
       },
       "purpose": "sell",
       "price": "$510,000",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 12,
@@ -178,7 +189,8 @@
       },
       "purpose": "rent",
       "price": "$2,600/month",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 13,
@@ -193,7 +205,8 @@
       },
       "purpose": "sell",
       "price": "$720,000",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 14,
@@ -208,7 +221,8 @@
       },
       "purpose": "rent",
       "price": "$3,100/month",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 15,
@@ -223,7 +237,8 @@
       },
       "purpose": "sell",
       "price": "$510,000",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 16,
@@ -238,7 +253,8 @@
       },
       "purpose": "rent",
       "price": "$2,800/month",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 17,
@@ -253,7 +269,8 @@
       },
       "purpose": "sell",
       "price": "$760,000",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 18,
@@ -268,7 +285,8 @@
       },
       "purpose": "rent",
       "price": "$1,450/month",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 19,
@@ -283,7 +301,8 @@
       },
       "purpose": "sell",
       "price": "$640,000",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 20,
@@ -298,7 +317,8 @@
       },
       "purpose": "sell",
       "price": "$520,000",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 21,
@@ -313,7 +333,8 @@
       },
       "purpose": "rent",
       "price": "$2,700/month",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 22,
@@ -328,7 +349,8 @@
       },
       "purpose": "sell",
       "price": "$740,000",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 23,
@@ -343,7 +365,8 @@
       },
       "purpose": "rent",
       "price": "$3,200/month",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 24,
@@ -358,7 +381,8 @@
       },
       "purpose": "sell",
       "price": "$520,000",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 25,
@@ -373,7 +397,8 @@
       },
       "purpose": "rent",
       "price": "$2,900/month",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 26,
@@ -388,7 +413,8 @@
       },
       "purpose": "sell",
       "price": "$770,000",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 27,
@@ -403,7 +429,8 @@
       },
       "purpose": "rent",
       "price": "$1,500/month",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 28,
@@ -418,7 +445,8 @@
       },
       "purpose": "sell",
       "price": "$660,000",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 29,
@@ -433,7 +461,8 @@
       },
       "purpose": "sell",
       "price": "$530,000",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 30,
@@ -448,7 +477,8 @@
       },
       "purpose": "rent",
       "price": "$2,800/month",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 31,
@@ -463,7 +493,8 @@
       },
       "purpose": "sell",
       "price": "$760,000",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 32,
@@ -478,7 +509,8 @@
       },
       "purpose": "rent",
       "price": "$3,300/month",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 33,
@@ -493,7 +525,8 @@
       },
       "purpose": "sell",
       "price": "$530,000",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 34,
@@ -508,7 +541,8 @@
       },
       "purpose": "rent",
       "price": "$3,000/month",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 35,
@@ -523,7 +557,8 @@
       },
       "purpose": "sell",
       "price": "$780,000",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 36,
@@ -538,7 +573,8 @@
       },
       "purpose": "rent",
       "price": "$1,550/month",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 37,
@@ -553,7 +589,8 @@
       },
       "purpose": "sell",
       "price": "$680,000",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 38,
@@ -568,7 +605,8 @@
       },
       "purpose": "sell",
       "price": "$540,000",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 39,
@@ -583,7 +621,8 @@
       },
       "purpose": "rent",
       "price": "$2,900/month",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 40,
@@ -598,7 +637,8 @@
       },
       "purpose": "sell",
       "price": "$780,000",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 41,
@@ -613,7 +653,8 @@
       },
       "purpose": "rent",
       "price": "$3,400/month",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 42,
@@ -628,7 +669,8 @@
       },
       "purpose": "sell",
       "price": "$540,000",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 43,
@@ -643,7 +685,8 @@
       },
       "purpose": "rent",
       "price": "$3,100/month",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 44,
@@ -658,7 +701,8 @@
       },
       "purpose": "sell",
       "price": "$790,000",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 45,
@@ -673,7 +717,8 @@
       },
       "purpose": "rent",
       "price": "$1,600/month",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 46,
@@ -688,7 +733,8 @@
       },
       "purpose": "sell",
       "price": "$700,000",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 47,
@@ -703,7 +749,8 @@
       },
       "purpose": "sell",
       "price": "$550,000",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 48,
@@ -718,7 +765,8 @@
       },
       "purpose": "rent",
       "price": "$3,000/month",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 49,
@@ -733,7 +781,8 @@
       },
       "purpose": "sell",
       "price": "$800,000",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 50,
@@ -748,7 +797,8 @@
       },
       "purpose": "rent",
       "price": "$3,500/month",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 51,
@@ -763,7 +813,8 @@
       },
       "purpose": "sell",
       "price": "$550,000",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 52,
@@ -778,7 +829,8 @@
       },
       "purpose": "rent",
       "price": "$3,200/month",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 53,
@@ -793,7 +845,8 @@
       },
       "purpose": "sell",
       "price": "$810,000",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 54,
@@ -808,7 +861,8 @@
       },
       "purpose": "rent",
       "price": "$1,650/month",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     },
     {
       "id": 55,
@@ -823,7 +877,8 @@
       },
       "purpose": "sell",
       "price": "$720,000",
-      "image": "property-1.jpg"
+      "image": "property-1.jpg",
+      "city": "New York"
     },
     {
       "id": 56,
@@ -838,7 +893,8 @@
       },
       "purpose": "sell",
       "price": "$560,000",
-      "image": "property-2.jpg"
+      "image": "property-2.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 57,
@@ -853,7 +909,8 @@
       },
       "purpose": "rent",
       "price": "$3,100/month",
-      "image": "property-3.jpg"
+      "image": "property-3.jpg",
+      "city": "Chicago"
     },
     {
       "id": 58,
@@ -868,7 +925,8 @@
       },
       "purpose": "sell",
       "price": "$820,000",
-      "image": "property-4.jpg"
+      "image": "property-4.jpg",
+      "city": "New York"
     },
     {
       "id": 59,
@@ -883,7 +941,8 @@
       },
       "purpose": "rent",
       "price": "$3,600/month",
-      "image": "property-5.jpg"
+      "image": "property-5.jpg",
+      "city": "Los Angeles"
     },
     {
       "id": 60,
@@ -898,7 +957,8 @@
       },
       "purpose": "sell",
       "price": "$560,000",
-      "image": "property-6.jpg"
+      "image": "property-6.jpg",
+      "city": "Chicago"
     }
   ],
   "testimonials": [

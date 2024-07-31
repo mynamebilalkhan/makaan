@@ -1,18 +1,73 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const PropertySearch = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [category, setCategory] = useState("");
+  const [type, setType] = useState("");
   const [location, setLocation] = useState("");
+  const [propertyTypes, setPropertyTypes] = useState([]);
   const navigate = useNavigate();
+
+  const [cities, setCities] = useState([]);
+
+  useEffect(() => {
+    const fetchProperties = async () => {
+      try {
+        const res = await fetch("/api/properties");
+        const data = await res.json();
+        let citiesData = data.map((property) => property.city);
+
+        setCities([...new Set(citiesData)]);
+      } catch (error) {
+        console.log("Error Fetching Records", error);
+        setCities([]);
+      }
+    };
+    fetchProperties();
+  }, []);
+
+  useEffect(() => {
+    async function fetchPropertyData() {
+      const apiUrl = "/api/properties"; // Replace with the actual API URL
+
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+
+        // Process the data to count occurrences of each property type
+        const typeCounts = data.reduce((acc, property) => {
+          const typeName = property.type.name;
+          if (acc[typeName]) {
+            acc[typeName].count += 1;
+          } else {
+            acc[typeName] = { count: 1, icon: property.type.icon };
+          }
+          return acc;
+        }, {});
+
+        // Convert the processed data to an array
+        const propertyTypeArray = Object.entries(typeCounts).map(([name]) => ({
+          name,
+        }));
+
+        setPropertyTypes(propertyTypeArray);
+      } catch (error) {
+        console.error("Error fetching property data:", error);
+      }
+    }
+
+    fetchPropertyData();
+  }, []);
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
 
   const handleTypeChange = (event) => {
-    setCategory(event.target.value);
+    setType(event.target.value);
   };
 
   const handleLocationChange = (event) => {
@@ -22,7 +77,7 @@ const PropertySearch = () => {
   const navigateResults = () => {
     const queryParams = new URLSearchParams({
       search: searchQuery,
-      category: category,
+      type: type,
       location: location,
     }).toString();
 
@@ -31,7 +86,6 @@ const PropertySearch = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // console.log(inputs);
     navigateResults();
   };
 
@@ -63,10 +117,18 @@ const PropertySearch = () => {
                       name="type"
                       onChange={handleTypeChange}
                     >
-                      <option value="">Property Type</option>
-                      <option value="1">Property Type 1</option>
-                      <option value="2">Property Type 2</option>
-                      <option value="3">Property Type 3</option>
+                      <option value="" disabled>
+                        Property Types
+                      </option>
+                      {propertyTypes.map((type, index) => (
+                        <option
+                          key={index}
+                          value={type.name}
+                          style={{ textTransform: "capitalize" }}
+                        >
+                          {type.name}
+                        </option>
+                      ))}
                     </select>
                   </div>
                   <div className="col-md-4">
@@ -76,10 +138,14 @@ const PropertySearch = () => {
                       name="location"
                       onChange={handleLocationChange}
                     >
-                      <option value="">Location</option>
-                      <option value="1">Location 1</option>
-                      <option value="2">Location 2</option>
-                      <option value="3">Location 3</option>
+                      <option value="" disabled>
+                        Location
+                      </option>
+                      {cities.map((city, index) => (
+                        <option key={index} value={city}>
+                          {city}
+                        </option>
+                      ))}
                     </select>
                   </div>
                 </div>
