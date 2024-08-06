@@ -15,6 +15,7 @@ import TestimonialsPage from "./pages/TestimonialsPage";
 import PropertyAgent from "./pages/PropertyAgent";
 import PropertyTypeDetail from "./pages/PropertyTypeDetail";
 import Listing from "./pages/Listing";
+import PropertyDetail from "./pages/PropertyDetail";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
       <Route path="/testimonials" element={<TestimonialsPage />} />
       <Route path="/property-agent" element={<PropertyAgent />} />
       <Route path="/listing" element={<Listing />} />
+      <Route path="/property/:id" element={<PropertyDetail />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Route>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import BannerInner from "../components/BannerInner";
 import PropertySearch from "../components/PropertySearch";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Listing = () => {
   const [properties, setProperties] = useState([]);
@@ -35,7 +35,6 @@ const Listing = () => {
     <>
       <BannerInner title="Properties" />
       <PropertySearch />
-      <h1>Listing</h1>
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-4">
@@ -48,13 +47,13 @@ const Listing = () => {
                 >
                   <div className="property-item rounded overflow-hidden">
                     <div className="position-relative overflow-hidden">
-                      <a href="">
+                      <Link to={`/property/${property.id}`}>
                         <img
                           className="img-fluid"
                           src={`public/assets/img/${property.image}`}
                           alt=""
                         />
-                      </a>
+                      </Link>
                       <div
                         className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
                         style={{ textTransform: "capitalize" }}
@@ -70,9 +69,12 @@ const Listing = () => {
                     </div>
                     <div className="p-4 pb-0">
                       <h5 className="text-primary mb-3">{property.price}</h5>
-                      <a className="d-block h5 mb-2" href="">
+                      <Link
+                        className="d-block h5 mb-2"
+                        to={`/property/${property.id}`}
+                      >
                         {property.title}
-                      </a>
+                      </Link>
                       <p>
                         <i className="fa fa-map-marker-alt text-primary me-2"></i>
                         {property.location}
