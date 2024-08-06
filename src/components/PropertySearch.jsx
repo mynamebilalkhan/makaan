@@ -28,7 +28,7 @@ const PropertySearch = () => {
 
   useEffect(() => {
     async function fetchPropertyData() {
-      const apiUrl = "/api/properties"; // Replace with the actual API URL
+      const apiUrl = "/api/properties";
 
       try {
         const response = await fetch(apiUrl);

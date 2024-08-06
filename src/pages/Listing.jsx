@@ -1,68 +1,106 @@
-import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 import BannerInner from "../components/BannerInner";
 import PropertySearch from "../components/PropertySearch";
-import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
 const Listing = () => {
+  const [properties, setProperties] = useState([]);
   const location = useLocation();
-  const [listing, setListing] = useState([]);
 
   useEffect(() => {
-    const queryParams = new URLSearchParams(location.search);
-    const searchQueryParam = queryParams.get("search") || "";
-    const typeParam = queryParams.get("type") || "";
-    const locationParam = queryParams.get("location") || "";
-    fetchListings(searchQueryParam, typeParam, locationParam);
-  }, [location.search]);
+    const fetchFilteredProperties = async () => {
+      const queryParams = new URLSearchParams(location.search);
+      const search = queryParams.get("search") || "";
+      const type = queryParams.get("type") || "";
+      const locationParam = queryParams.get("location") || "";
 
-  const fetchListings = async (searchQueryParam, typeParam, locationParam) => {
-    try {
-      const res = await fetch(
-        `/api/properties?search=${searchQueryParam}&location=${locationParam}&type=${typeParam}`
-      );
+      const apiUrl = `/api/properties?search=${search}&type=${type}&city=${locationParam}`; // Replace with the actual API endpoint
 
-      if (!res.ok) {
-        throw new Error("Network response was not ok");
+      try {
+        const res = await fetch(apiUrl);
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        const data = await res.json();
+        setProperties(data);
+      } catch (error) {
+        console.error("Error fetching filtered properties:", error);
       }
+    };
 
-      const data = await res.json();
-
-      // Filter the data based on query params
-      const filteredData = data.filter((item) => {
-        return (
-          (searchQueryParam
-            ? item.title.toLowerCase().includes(searchQueryParam.toLowerCase())
-            : true) && (typeParam ? item.type.name === typeParam : true)
-        );
-      });
-
-      setListing(filteredData);
-    } catch (error) {
-      console.error("Failed to fetch listings", error);
-    }
-  };
+    fetchFilteredProperties();
+  }, [location.search]);
 
   return (
     <>
       <BannerInner title="Properties" />
       <PropertySearch />
       <h1>Listing</h1>
-      {listing.length > 0 ? (
-        listing.map((item) => (
-          <div key={item.id}>
-            <h2>{item.title}</h2>
-            <p>{item.location}</p>
-            <p>{item.space}</p>
-            <p>
-              {item.bed} Beds, {item.bath} Baths
-            </p>
-            <p>{item.price}</p>
-            <img src={item.image} alt={item.title} />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-4">
+            {properties.length > 0 ? (
+              properties.map((property, index) => (
+                <div
+                  className="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                  key={index}
+                >
+                  <div className="property-item rounded overflow-hidden">
+                    <div className="position-relative overflow-hidden">
+                      <a href="">
+                        <img
+                          className="img-fluid"
+                          src={`public/assets/img/${property.image}`}
+                          alt=""
+                        />
+                      </a>
+                      <div
+                        className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                        style={{ textTransform: "capitalize" }}
+                      >
+                        For {property.purpose}
+                      </div>
+                      <div
+                        className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                        style={{ textTransform: "capitalize" }}
+                      >
+                        {property.type.name}
+                      </div>
+                    </div>
+                    <div className="p-4 pb-0">
+                      <h5 className="text-primary mb-3">{property.price}</h5>
+                      <a className="d-block h5 mb-2" href="">
+                        {property.title}
+                      </a>
+                      <p>
+                        <i className="fa fa-map-marker-alt text-primary me-2"></i>
+                        {property.location}
+                      </p>
+                    </div>
+                    <div className="d-flex border-top">
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-ruler-combined text-primary me-2"></i>
+                        {property.space}
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-bed text-primary me-2"></i>
+                        {property.bed} Bed
+                      </small>
+                      <small className="flex-fill text-center py-2">
+                        <i className="fa fa-bath text-primary me-2"></i>
+                        {property.bath} Bath
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              ))
+            ) : (
+              <p>No properties found.</p>
+            )}
           </div>
-        ))
-      ) : (
-        <p>No listings found</p>
-      )}
+        </div>
+      </div>
     </>
   );
 };
