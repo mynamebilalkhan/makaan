@@ -7,6 +7,10 @@ const Listing = () => {
   const [properties, setProperties] = useState([]);
   const location = useLocation();
 
+  const [searchData, setSearchData] = useState("");
+  const [typeData, setTypeData] = useState("");
+  const [cityData, setCityData] = useState("");
+
   useEffect(() => {
     const fetchFilteredProperties = async () => {
       const queryParams = new URLSearchParams(location.search);
@@ -14,17 +18,36 @@ const Listing = () => {
       const type = queryParams.get("type") || "";
       const locationParam = queryParams.get("location") || "";
 
-      const apiUrl = `/api/properties?search=${search}&type=${type}&city=${locationParam}`; // Replace with the actual API endpoint
+      setSearchData(search);
+      setTypeData(type);
+      setCityData(locationParam);
 
       try {
-        const res = await fetch(apiUrl);
+        const res = await fetch("/api/properties");
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);
         }
         const data = await res.json();
-        setProperties(data);
+
+        // Client-side filtering if API doesn't support filtering
+        const filteredProperties = data.filter((property) => {
+          const matchesSearch = search
+            ? property.title.toLowerCase().includes(search.toLowerCase()) ||
+              property.description.toLowerCase().includes(search.toLowerCase())
+            : true;
+
+          const matchesType = type ? property.type.name === type : true;
+          const matchesLocation = locationParam
+            ? property.city === locationParam
+            : true;
+
+          return matchesSearch && matchesType && matchesLocation;
+        });
+
+        setProperties(filteredProperties);
       } catch (error) {
         console.error("Error fetching filtered properties:", error);
+        setProperties([]); // Clear properties in case of error
       }
     };
 
@@ -34,7 +57,11 @@ const Listing = () => {
   return (
     <>
       <BannerInner title="Properties" />
-      <PropertySearch />
+      <PropertySearch
+        searchData={searchData}
+        typeData={typeData}
+        cityData={cityData}
+      />
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-4">

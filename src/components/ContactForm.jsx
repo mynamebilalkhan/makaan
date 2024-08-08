@@ -27,7 +27,7 @@ const ContactForm = () => {
       newErrors.email = "Email is required.";
     } else if (!/\S+@\S+\.\S+/.test(inputs.email)) {
       valid = false;
-      newErrors.subject = "Email is Invalid.";
+      newErrors.email = "Email is Invalid.";
     }
 
     if (!inputs.subject) {
@@ -46,7 +46,6 @@ const ContactForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(inputs);
 
     if (!validate()) {
       return;
@@ -66,6 +65,7 @@ const ContactForm = () => {
           const data = await res.json();
           console.log("Form submitted successfully: ", data);
           setStatus(true);
+          setInputs({}); // Reset the form fields
         } else {
           console.log("Form Submission Failed: ", res.statusText);
         }
@@ -89,7 +89,7 @@ const ContactForm = () => {
                 id="name"
                 name="name"
                 placeholder="Your Name"
-                //  onChange={(e) => setName(e.target.value)}
+                value={inputs.name || ""} // Set the value to the state or an empty string
                 onChange={handleChange}
               />
               <label htmlFor="name">Your Name</label>
@@ -106,6 +106,7 @@ const ContactForm = () => {
                 id="email"
                 name="email"
                 placeholder="Your Email"
+                value={inputs.email || ""} // Set the value to the state or an empty string
                 onChange={handleChange}
               />
               <label htmlFor="email">Your Email</label>
@@ -122,6 +123,7 @@ const ContactForm = () => {
                 id="subject"
                 name="subject"
                 placeholder="Subject"
+                value={inputs.subject || ""} // Set the value to the state or an empty string
                 onChange={handleChange}
               />
               <label htmlFor="subject">Subject</label>
@@ -138,6 +140,7 @@ const ContactForm = () => {
                 id="message"
                 name="message"
                 style={{ height: "150px" }}
+                value={inputs.message || ""} // Set the value to the state or an empty string
                 onChange={handleChange}
               ></textarea>
               <label htmlFor="message">Message</label>

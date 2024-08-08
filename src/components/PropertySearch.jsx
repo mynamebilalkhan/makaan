@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-const PropertySearch = () => {
+const PropertySearch = (props) => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [type, setType] = useState("");
-  const [location, setLocation] = useState("");
+  const [type, setType] = useState(props?.typeData || "");
+  const [location, setLocation] = useState(props?.cityData || "");
   const [propertyTypes, setPropertyTypes] = useState([]);
   const navigate = useNavigate();
 
@@ -108,18 +108,18 @@ const PropertySearch = () => {
                       placeholder="Search Keyword"
                       name="keyword"
                       onChange={handleSearchChange}
+                      defaultValue={props?.searchData}
                     />
                   </div>
                   <div className="col-md-4">
                     <select
                       className="form-select border-0 py-3"
-                      defaultValue=""
+                      value={type || props?.typeData}
+                      // value={props?.typeData || ""}
                       name="type"
                       onChange={handleTypeChange}
                     >
-                      <option value="" disabled>
-                        Property Types
-                      </option>
+                      <option value="">Property Types</option>
                       {propertyTypes.map((type, index) => (
                         <option
                           key={index}
@@ -134,15 +134,18 @@ const PropertySearch = () => {
                   <div className="col-md-4">
                     <select
                       className="form-select border-0 py-3"
-                      defaultValue=""
+                      value={location || props?.cityData}
+                      // value={props?.cityData || ""}
                       name="location"
                       onChange={handleLocationChange}
                     >
-                      <option value="" disabled>
-                        Location
-                      </option>
+                      <option value="">Location</option>
                       {cities.map((city, index) => (
-                        <option key={index} value={city}>
+                        <option
+                          key={index}
+                          value={city}
+                          style={{ textTransform: "capitalize" }}
+                        >
                           {city}
                         </option>
                       ))}
